@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+
+    <item
+        android:id="@+id/add_item"
+        android:icon="@drawable/boton_circular_plus"
+        android:title="Agregar nota"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/add_img"
+        android:icon="@drawable/galeria_de_imagenes"
+        android:title="Agregar Imagen"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/home"
+        android:title="Ir al inicio"
+        app:showAsAction="ifRoom" />
+
+</menu>
